@@ -3,7 +3,7 @@ $(document).ready(function () {
         $("#help").show();
         $("#search").hide();
         $("#about").hide();
-        $("#socials-tab-bottom").addClass('active')
+        $("#help-tab-bottom").addClass('active')
         $("#search-tab-bottom").removeClass('active')
         $("#about-tab-bottom").removeClass('active')
     });
@@ -12,7 +12,7 @@ $(document).ready(function () {
         $("#help").hide();
         $("#search").show();
         $("#about").hide();
-        $("#socials-tab-bottom").removeClass('active')
+        $("#help-tab-bottom").removeClass('active')
         $("#search-tab-bottom").addClass('active')
         $("#about-tab-bottom").removeClass('active')
     });
@@ -21,7 +21,7 @@ $(document).ready(function () {
         $("#help").hide();
         $("#search").hide();
         $("#about").show();
-        $("#socials-tab-bottom").removeClass('active')
+        $("#help-tab-bottom").removeClass('active')
         $("#search-tab-bottom").removeClass('active')
         $("#about-tab-bottom").addClass('active')
     });
